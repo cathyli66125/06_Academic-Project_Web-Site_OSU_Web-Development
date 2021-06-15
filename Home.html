@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body onload="carousel()">
+<script src="SlidesShow.js"></script>
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#Game">Game</a></li>
+  <li><a href="#Leaderboard">Leaderboard</a></li>
+  <li><a href="#About">About</a></li>
+</ul>
+<br>
+<div>
+  <img class="mySlides" src="mySlides1.jpg" >
+  <img class="mySlides" src="mySlides2.jpg" >
+  <img class="mySlides" src="mySlides3.jpg" >
+  <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<br>
+
+<div style="background-color: rgb(215, 63, 9);width:800px; height:150px; margin:auto">
+<br>
+<h2 class="username">Enter username and start game!</h2>
+<br>
+<form class="username" action="/action_page.php">
+  <label class="username" for="fname">Username:</label>
+  <input class="username" type="text" id="fname" name="fname" value="John"><br>
+  <br>
+  <input class="username submit" type="submit" value="Submit and Start">
+</form> 
+</div>
+</body>
+</html>

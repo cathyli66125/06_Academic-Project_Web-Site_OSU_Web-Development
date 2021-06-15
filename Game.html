@@ -1,0 +1,20 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.CSS">
+    <title>Document</title>
+    
+</head>
+<body onload="startGame()">
+    <h4 style = "position: absolute; top: 120px; left: 650px" onclick="moveup()">Use"↑" and "↓" to move your car; add more gas but avoid rocks.</h1>
+    <button style = "position: absolute; top: 300px; left: 650px; background-color:rgb(0,39,76); color:white" onclick="moveup()">UP</button><br>
+    <button style = "position: absolute; top: 330px; left: 650px; background-color:rgb(0,39,76); color:white" onclick="moveup()"onclick="movedown()">DN</button>
+    <h2 class = "parameter1" id=speed></h1>
+    <h2 class = "parameter2" id=mileage></h1>
+    <h2 class = "parameter3" id=gas></h1>
+
+    <script src="Game.js"></script>
+</body>
+</html>

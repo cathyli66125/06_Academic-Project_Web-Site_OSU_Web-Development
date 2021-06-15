@@ -1,0 +1,12 @@
+li {
+
+}
+.aboutMe {
+    position: absolute;
+    top: 80px;
+    left: 400px;
+    width: 800px;
+    color:white;
+    text-size-adjust: 30;
+    background-color: rgb(215, 63, 9) ;
+}
